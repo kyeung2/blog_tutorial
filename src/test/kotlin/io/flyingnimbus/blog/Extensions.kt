@@ -1,4 +1,4 @@
-package io.flyingnimbus.Blog
+package io.flyingnimbus.blog
 
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatterBuilder

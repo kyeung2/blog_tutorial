@@ -1,4 +1,4 @@
-package io.flyingnimbus.Blog
+package io.flyingnimbus.blog
 
 import org.assertj.core.api.Assertions.assertThat
 import org.junit.jupiter.api.AfterAll

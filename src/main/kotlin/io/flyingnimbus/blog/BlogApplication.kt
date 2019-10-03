@@ -1,4 +1,4 @@
-package io.flyingnimbus.Blog
+package io.flyingnimbus.blog
 
 import org.springframework.boot.Banner
 import org.springframework.boot.autoconfigure.SpringBootApplication
