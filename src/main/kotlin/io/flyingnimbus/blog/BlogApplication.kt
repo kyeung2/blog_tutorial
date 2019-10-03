@@ -1,4 +1,4 @@
-package io.flyingnimbus.blog
+package io.flyingnimbus.Blog
 
 import org.springframework.boot.Banner
 import org.springframework.boot.autoconfigure.SpringBootApplication
@@ -8,7 +8,7 @@ import org.springframework.boot.runApplication
 class BlogApplication
 
 fun main(args: Array<String>) {
-	runApplication<BlogApplication>(*args) {
+	runApplication<BlogApplication>(*args){
 		setBannerMode(Banner.Mode.OFF)
 	}
 }

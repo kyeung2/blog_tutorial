@@ -1,4 +1,4 @@
-package io.flyingnimbus.blog
+package io.flyingnimbus.Blog
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
@@ -9,4 +9,5 @@ class BlogApplicationTests {
 	@Test
 	fun contextLoads() {
 	}
+
 }

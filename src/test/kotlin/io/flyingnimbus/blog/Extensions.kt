@@ -1,4 +1,4 @@
-package io.flyingnimbus.blog
+package io.flyingnimbus.Blog
 
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatterBuilder
@@ -8,7 +8,6 @@ import java.util.*
 /**
  * @author Kye
  */
-
 fun LocalDateTime.format() = this.format(englishDateFormatter)
 
 private val daysLookup = (1..31).associate { it.toLong() to getOrdinal(it) }

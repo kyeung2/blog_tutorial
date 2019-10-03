@@ -1,4 +1,4 @@
-package io.flyingnimbus.blog
+package io.flyingnimbus.Blog
 
 import org.springframework.stereotype.Controller
 import org.springframework.ui.Model
@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.GetMapping
 /**
  * @author Kye
  */
-
 @Controller
 class HtmlController {
 
     @GetMapping("/")
-    fun blog(model: Model):String {
+    fun blog(model: Model): String {
         model["title"] = "Blog"
         return "blog"
     }
+
 }
