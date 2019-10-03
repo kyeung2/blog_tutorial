@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.GetMapping
 /**
  * @author Kye
  */
-
 @Controller
 class HtmlController {
 
     @GetMapping("/")
-    fun blog(model: Model):String {
+    fun blog(model: Model): String {
         model["title"] = "Blog"
         return "blog"
     }
+
 }
